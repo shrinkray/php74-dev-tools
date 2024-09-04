@@ -1,0 +1,22 @@
+{
+	"name": "your-username/php74-dev-tools",
+	"description": "PHP 7.4 development tools",
+	"require": {
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+		"friendsofphp/php-cs-fixer": "^3.0",
+		"phpcsstandards/phpcsextra": "^1.0",
+		"phpcsstandards/phpcsutils": "^1.0",
+		"squizlabs/php_codesniffer": "^3.6",
+		"phpunit/phpunit": "^9.5",
+		"wp-coding-standards/wpcs": "^2.3"
+	},
+	"config": {
+		"sort-packages": true,
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
